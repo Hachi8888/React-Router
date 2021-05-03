@@ -18,10 +18,10 @@ export const Router = () => {
             <Route exact path={url}>
               <Page1 />
             </Route>
-            <Route exact path={`${url}/detailA`}>
+            <Route path={`${url}/detailA`}>
               <Page1DetailA />
             </Route>
-            <Route exact path={`${url}/detailB`}>
+            <Route path={`${url}/detailB`}>
               <Page1DetailB />
             </Route>
           </Switch>
